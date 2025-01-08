@@ -1,0 +1,53 @@
+# 忽略Lab 4和Lab 5文件夹
+/无线网络与移动计算/Lab/Lab 4/
+/无线网络与移动计算/Lab/Lab 5/
+
+# 忽略临时文件和编译输出
+*.log
+*.tmp
+*.cache
+*.aux
+*.out
+
+# 忽略Windows系统文件
+Thumbs.db
+Desktop.ini
+
+# 忽略大文件（超过100MB）
+*.[!m]*  # 忽略所有文件扩展名不为m的文件，适用于Matlab文件保持追踪
+*.iso
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# 忽略IDE配置文件和本地设置
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.swp
+*.bak
+*.backup
+*.ldb
+
+# 忽略Python编译输出
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 忽略macOS系统文件
+.DS_Store
+
+# 忽略生成的文档
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.doc
+*.xls
+*.ppt
+
+# 备注：请根据具体项目需求调整以上规则，特别是对大文件格式的定义
